@@ -1,0 +1,1 @@
+gef-remote --qemu-user --qemu-binary vmlinux localhost 1234
