@@ -1,0 +1,9 @@
+ffffffff813193d0 0xffffffff813193d0 T tty_ioctl
+
+> grep /sbin/modprobe
+[+] In (0xffff966d0f3c0000-0xffff966d0f5ef000), permission=rw-
+  0xffff966d0f438180 - 0xffff966d0f43818e  →   "/sbin/modprobe" 
+[+] In (0xffffffff8b800000-0xffffffff8b8f7000), permission=rw-
+  0xffffffff8b838180 - 0xffffffff8b83818e  →   "/sbin/modprobe" // 0xe38180
+
+* change init file permissions to 777
